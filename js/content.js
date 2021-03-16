@@ -1,5 +1,12 @@
 const embeds = [
-    {img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6"}
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" },
+    { img: 'https://assets-global.website-files.com/5e4319072e6fb910d3a508a6/5e706fd52e38715ba19f2927_service%20blueprint.jpeg', width: 320, height: 240, url: "https://app.mural.co/embed/9d3d9d06-df22-4740-b7fa-b52d3760a1f6" }
 ]
 
 function getEmbed(embed) {
@@ -13,7 +20,7 @@ function addEmbeds(container) {
 }
 
 function createEmbed(canvasX, canvasY, embedUrl) {
-    return miro.board.widget.create({
+    return miro.board.widgets.create({
         type: 'EMBED',
         x: canvasX,
         y: canvasY,
